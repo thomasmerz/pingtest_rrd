@@ -1,4 +1,4 @@
-# Purpose of this project
+# Ping Monitoring
 This project implement a nice monitoring of average pings to IP adresses / hostnames in RRD databases and simple HTML pages with PNG graphs. With these information you know when your devices at home or external hosts are up/down and how fast they respond to your pings. You can also get correlations when both internal/router IP and external hosts are "down" - this might be due to your router/provider.  
 
 ![image](https://user-images.githubusercontent.com/18568381/158082862-5631c13f-070e-4bc8-b386-2197d18c2880.png)
