@@ -49,7 +49,7 @@ Run this script once to copy and edit html-files from template for all DNS resol
 🚧 You have to check and edit [dev_int/dev_ext](https://github.com/thomasmerz/speedtest_rrd/98_create_html.sh#L5-L6) and [what](https://github.com/thomasmerz/speedtest_rrd/98_create_html_personal_devices.sh#L5) in this file!
 
 ## 98_create_rrd.sh / 98_create_rrd_personal_devices.sh
-Run this script once to create rrd-database-files all DNS resolvers that are "configured" in this script.  
+Run this script once to create rrd-database-files for all DNS resolvers that are "configured" in this script.  
 
 🚧 You have to check and edit [what_int/what_ext](https://github.com/thomasmerz/speedtest_rrd/98_create_rrd.sh#L21-L22) and [what](https://github.com/thomasmerz/speedtest_rrd/98_create_rrd_personal_devices.sh#L5) in this file!
 
