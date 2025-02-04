@@ -46,22 +46,22 @@ vs.
 ## 01_ping.sh / 01_ping_personal_devices.sh
 Run this script periodically (for example every 5 minutes) via crontab to monitor some IP addresses / hostss. All results are written into RRD database(s).  
 
-🚧 You have to check and edit [internal_network](https://github.com/thomasmerz/speedtest_rrd/01_ping.sh#L35) and [external_network](https://github.com/thomasmerz/speedtest_rrd/01_ping.sh#L47) and [personal_devices] (https://github.com/thomasmerz/speedtest_rrd/01_ping_personal_devices.sh#35) in these files!
+🚧 You have to check and edit [internal_network](https://github.com/thomasmerz/speedtest_rrd/blob/main/01_ping.sh#L35) and [external_network](https://github.com/thomasmerz/speedtest_rrd/blob/main/01_ping.sh#L47) and [personal_devices] (https://github.com/thomasmerz/speedtest_rrd/blob/main/01_ping_personal_devices.sh#35) in these files!
 
 ## 02_ping-graph.sh / 02_ping-graph_personal_devices.sh
 Run this script periodically (for example every hour) via crontab to create PNG-chart(s) from results RRD database(s) for hourly/daily/weekly/monthly/yearly charts.
 
-🚧 You have to check and edit [h_int/h_ext](https://github.com/thomasmerz/speedtest_rrd/02_ping-graph.sh#L5-L6) and [h](https://github.com/thomasmerz/speedtest_rrd/02_ping-graph_personal_devices.sh#L5) in this file!
+🚧 You have to check and edit [h_int/h_ext](https://github.com/thomasmerz/speedtest_rrd/blob/main/02_ping-graph.sh#L5-L6) and [h](https://github.com/thomasmerz/speedtest_rrd/blob/main/02_ping-graph_personal_devices.sh#L5) in this file!
 
 ## 98_create_html.sh / 98_create_html_personal_devices.sh
 Run this script once to copy and edit html-files from template for all DNS resolvers that are "configured" in this script.  
 
-🚧 You have to check and edit [dev_int/dev_ext](https://github.com/thomasmerz/speedtest_rrd/98_create_html.sh#L5-L6) and [what](https://github.com/thomasmerz/speedtest_rrd/98_create_html_personal_devices.sh#L5) in this file!
+🚧 You have to check and edit [dev_int/dev_ext](https://github.com/thomasmerz/speedtest_rrd/blob/main/98_create_html.sh#L5-L6) and [what](https://github.com/thomasmerz/speedtest_rrd/blob/main/98_create_html_personal_devices.sh#L5) in this file!
 
 ## 98_create_rrd.sh / 98_create_rrd_personal_devices.sh
 Run this script once to create rrd-database-files for all DNS resolvers that are "configured" in this script.  
 
-🚧 You have to check and edit [what_int/what_ext](https://github.com/thomasmerz/speedtest_rrd/98_create_rrd.sh#L21-L22) and [what](https://github.com/thomasmerz/speedtest_rrd/98_create_rrd_personal_devices.sh#L5) in this file!
+🚧 You have to check and edit [what_int/what_ext](https://github.com/thomasmerz/speedtest_rrd/blob/main/98_create_rrd.sh#L21-L22) and [what](https://github.com/thomasmerz/speedtest_rrd/blob/main/98_create_rrd_personal_devices.sh#L5) in this file!
 
 ## Crontab
 ```
